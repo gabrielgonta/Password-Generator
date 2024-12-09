@@ -14,21 +14,26 @@ Install NodeJs : https://nodejs.org/fr/
 
 Clone the repository :
 
+```
 git clone https://github.com/gabrielgonta/Password-Generator.git
+```
 
 
 Navigate to the root directory where the 'package.json' file is located, then run the command to install the dependencies :
 
+```
 cd Password-Generator
 npm install
+```
 
 
 ## Deployment
 
 Once the dependencies are installed, you can start the application :
 
+```
 npm start
-
+```
 
 By default, the server listens on port **3000**. 
 
