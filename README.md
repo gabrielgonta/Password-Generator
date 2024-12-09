@@ -54,7 +54,7 @@ You can now access the application via this address: http://localhost:3000/ :
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/gabrielgonta/Password-Generator/blob/main/LICENSE).
 
 ## Authors
 
