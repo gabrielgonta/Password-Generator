@@ -44,7 +44,13 @@ div.toggle {
   justify-content: flex-end;
 }
 
+.align-items-center {
+  opacity: 90%;
+}
 
+.text-muted {
+  color: black!important;
+}
 
 .light::before {
   content: '';
