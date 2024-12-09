@@ -117,7 +117,6 @@ export default function App() {
                   max="32"
                   value={length || 4}
                   className="my-3"
-                // oninput="amount.value=rangeInput.value" // This was causing errors so I commented it out. The program seems to work okay without it.
                 />
 
                 <CheckBoxes setting={setting} setSetting={setSetting} />

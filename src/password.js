@@ -15,13 +15,8 @@ export default function generatePassword(length , setting){
     if(setting.number === true)
     listOfTypes.push("num");
   
-    // generating password of <length> digits
     for(let i=0; i<=length-1; i++){
-
-        // alphabet or number
-
         const type = listOfTypes[Math.floor(Math.random() * listOfTypes.length)];
-
         if(type === "al"){
             password+=pickRandomElement(alpha); 
         }
@@ -34,8 +29,6 @@ export default function generatePassword(length , setting){
         else if(type === "sym"){
             password+=pickRandomElement(symbols);
         }
-
-
     }
 
     return password;
